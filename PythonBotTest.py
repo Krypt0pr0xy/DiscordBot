@@ -4,7 +4,7 @@ import time
 
 class MyClient(discord.Client):
     async def on_ready(self):
-         print("Bot is Online")
+         print("Bot is Online V1")
 
     #Wenn Nachricht gepostet wird
     async def on_message(self, message):
