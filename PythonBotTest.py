@@ -10,7 +10,7 @@ os.system("git pull origin master")
 class MyClient(discord.Client):
     async def on_ready(self):
          print("Bot is Online V1")
-
+		  
     #Wenn Nachricht gepostet wird
     async def on_message(self, message):
         global messageauthor
