@@ -1,6 +1,10 @@
 import discord
 import serial
 import time
+import os
+
+
+os.system("sudo git clone https://github.com/Krypt0pr0xy/DiscordBot.git")
 
 class MyClient(discord.Client):
     async def on_ready(self):
