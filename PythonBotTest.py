@@ -3,8 +3,9 @@ import serial
 import time
 import os
 
-
-os.system("sudo git clone https://github.com/Krypt0pr0xy/DiscordBot.git")
+os.system("git init .")
+os.system("git remote add originhttps://github.com/Krypt0pr0xy/DiscordBot.git")
+os.system("git pull origin master")
 
 class MyClient(discord.Client):
     async def on_ready(self):
